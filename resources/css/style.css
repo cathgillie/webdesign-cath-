@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(245, 235, 223);
+}
+
+.layout-wide {
+    background-color:wheat;
+    max-width: 1200px;
+    
+    
+}
