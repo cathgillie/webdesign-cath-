@@ -9,6 +9,10 @@ img{
     max-width: 100%;
 }
 
+video{
+    max-width: 100%;
+}
+
 /* Layouts */
 .layout-wide {
     background-color:wheat;
@@ -20,6 +24,15 @@ img{
 }
 
 /* Heading and typogaphy*/
+
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+    background-color:mintcream;
+}
 
 /* Header */
 
