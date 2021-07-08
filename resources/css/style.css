@@ -28,9 +28,11 @@ max-width: 100%;
 background-color:white;
 }
 
+/*Logo*/
 .layout-small {
-    max-width: 7%;
-    margin-left: 27%;      
+    max-width: 6%;
+    margin-left: 28%;     
+    
 }
 
 
