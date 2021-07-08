@@ -1,7 +1,7 @@
 /* GLOBAL DEFAULTS (only i can see these comments) */
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color:white; 
     font-family:sans-serif}
 
 
@@ -27,15 +27,28 @@ video{
 .layout-superwide {
 max-width: 100%;
 background-color:white;
+
 }
+
+.layout-small {
+    max-width: 7%;
+    margin-left: 27%;
+       
+}
+
+
+
 
 /* Heading and typogaphy*/
 
+
+
 h1{
-    font-family:Arial, Helvetica, sans-serif; 
-    font-size: 40px;
-    margin-left: 2%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    margin-left: 3%;
 }
+
 
 
 
@@ -46,6 +59,7 @@ h2{
 }
 
 /* Header */
+
 
 
 
