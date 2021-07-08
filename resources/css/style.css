@@ -9,13 +9,14 @@ img {
     max-width: 100%;
 }
 
+
 video{
     max-width: 100%;
 }
 
 /* Layouts */
 .layout-wide {
-    background-color:mintcream; 
+    background-color:wheat;
     max-width: 1200px;
     padding: 10px; 
     margin-left: auto;
@@ -25,22 +26,29 @@ video{
 
 .layout-superwide {
 max-width: 100%;
-background-color: white
+background-color:white;
 }
 
 /* Heading and typogaphy*/
 
 h1{
+    font-family:Arial, Helvetica, sans-serif; 
     font-size: 40px;
-    margin-left: 5%;
+    margin-left: 2%;
 }
+
+
+
 
 h2{
     font-size: 30px;
-    background-color:mintcream;
+    background-color:bisque;
 }
 
 /* Header */
+
+
+
 
 /* Navigation*/
 
