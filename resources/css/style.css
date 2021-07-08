@@ -21,19 +21,16 @@ video{
     padding: 10px; 
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .layout-superwide {
 max-width: 100%;
 background-color:white;
-
 }
 
 .layout-small {
     max-width: 7%;
-    margin-left: 27%;
-       
+    margin-left: 27%;      
 }
 
 
@@ -41,17 +38,11 @@ background-color:white;
 
 /* Heading and typogaphy*/
 
-
-
 h1{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 60px;
     margin-left: 3%;
 }
-
-
-
-
 
 h2{
     font-size: 30px;
@@ -60,12 +51,20 @@ h2{
 
 /* Header */
 
-
-
-
-
 /* Navigation*/
 
 /* Footer */
 
 /* Modules */
+
+/*Redscale images*/
+
+.column{
+    float: left;
+    width: 32%;
+    padding: 5px;
+    margin-left: 3px;
+    margin-right: 3px; 
+}
+
+
