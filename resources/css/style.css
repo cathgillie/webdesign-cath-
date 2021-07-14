@@ -41,6 +41,18 @@ background-color:white;
 
 /* Heading and typogaphy*/
 
+h1 {
+    color:black;
+}
+h2, 
+h3,
+h4,
+h5 {
+    color:burlywood;
+
+}
+
+
 h1{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 60px;
@@ -49,7 +61,7 @@ h1{
 
 h2{
     font-size: 30px;
-    background-color:bisque;
+    background-color:cornsilk;
 }
 
 /* Header */
