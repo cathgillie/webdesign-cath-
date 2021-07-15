@@ -1,9 +1,14 @@
 @import url(normalize.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&family=Simonetta:wght@400;900&display=swap');
+
 /* GLOBAL DEFAULTS (only i can see these comments) */
 
 body {
     background-color:white; 
-    font-family:sans-serif}
+    font-family: 'Rubik', sans-serif; 
+    font-weight: lighter;
+}
 
 
 img {
@@ -43,28 +48,28 @@ background-color:white;
 
 h1 {
     color:black;
+    font-family: 'Simonetta', cursive;
+    font-weight:bold;
+    font-size: 48px;
+    margin-left: 3%;
 
 }
-h2, 
+h2 {
+    color:burlywood;
+    background-color:cornsilk;
+    font-family: 'Rubik', sans-serif;
+    font-size: 36px;
+
+}
 h3,
 h4,
 h5 {
     color:burlywood;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-
+    font-family: 'Rubik', sans-serif;
 }
 
 
-h1{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    margin-left: 3%;
-}
 
-h2{
-    font-size: 30px;
-    background-color:cornsilk;
-}
 
 /* Header */
 
