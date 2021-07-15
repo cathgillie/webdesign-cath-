@@ -1,7 +1,6 @@
 @import url(normalize.css);
 
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&family=Simonetta:wght@400;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Rubik:wght@300;500&display=swap');
 /* GLOBAL DEFAULTS (only i can see these comments) */
 
 body {
@@ -48,23 +47,23 @@ background-color:white;
 
 h1 {
     color:black;
-    font-family: 'Simonetta', cursive;
-    font-weight:bold;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 48px;
     margin-left: 3%;
 
 }
 h2 {
-    color:burlywood;
+    color:tan;
     background-color:cornsilk;
     font-family: 'Rubik', sans-serif;
     font-size: 36px;
+
 
 }
 h3,
 h4,
 h5 {
-    color:burlywood;
+    color:tan;
     font-family: 'Rubik', sans-serif;
 }
 
