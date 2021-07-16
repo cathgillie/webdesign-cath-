@@ -34,12 +34,10 @@ background-color:white;
 }
 
 /*Logo*/
-.layout-small {
-    max-width: 6%;
-    margin-left: 28%;     
-    
-}
 
+.header-logo {
+    max-width: 100px;
+}
 
 
 
@@ -71,6 +69,13 @@ h5 {
 
 
 /* Header */
+
+.header-block {
+    display: grid;
+    grid-template-columns: 320px auto;
+    align-items: center;
+    
+}
 
 /* Navigation*/
 
