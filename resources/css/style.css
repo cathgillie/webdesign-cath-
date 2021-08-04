@@ -97,28 +97,66 @@ h6 {
 .nav-prompt {
     background-color:rgb(255, 248, 239);
     border:none;
-    text-align: center;
+    text-align:center;
     width:100%; 
+    color:black;
+    border-top-width:1px;
+    border-top-color: black;
+    border-top-style:hidden;
+
+    border-bottom-width: 1px;
+    border-bottom-color:black;
+    border-bottom-style:hidden;
+
+    padding-top: 20px;
+    padding-bottom:20px; 
+}
+
+.navigation{
+    background-color:transparent;
 }
 
 .main-nav {
-list-style: none;
-font-size: 24px ;
-display: grid;
-display:flex;
-justify-content: space-between;
+    list-style: none;
+    padding:0px;
 
+}
+
+.main-nav li{
+    list-style: none;
+    font-size: 24px ;
+    display: grid;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    text-transform:initial;
 }
 
 .main-nav a {
     color:black;
     font-weight: lighter;
     text-decoration: none;
-    display: flex;
-    
+    display: flex;    
 }
 
-@media screen and (min-width: 800px) {
+/* this is for the nabigation mobile view only */
+@media screen and (max-width: 800px){
+    .nav-inner {
+        max-height: 0px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        overflow: hidden;
+    }
+    .nav-inner.open{
+        max-height:100vh;
+    }
+}
+    
+
+
+/* this is to hide the nave button on desktop view */
+@media screen and (min-width: 800px) 
+{
    
     .nav-prompt {
         display: none;
