@@ -89,12 +89,36 @@ h6 {
     grid-template-columns: 320px auto;
     align-items: center; }
 
-header img {
-    max-width: 80px;
-}
+
+
 
 /* Navigation*/
- 
+
+.main-nav {
+list-style: none;
+font-size: 24px ;
+display: grid;
+display:flex;
+justify-content: space-between;
+
+}
+
+.main-nav a {
+    color:black;
+    font-weight: lighter;
+    text-decoration: none;
+    display: flex;
+    
+}
+
+@media screen and (min-width: 800px) {
+    .main-nav {
+        display: flex;
+        justify-content: space-between;
+    
+    }
+}
+
 /* Footer */
 
 /* Modules */
