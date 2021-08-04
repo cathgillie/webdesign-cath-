@@ -4,7 +4,7 @@
 /* GLOBAL DEFAULTS (only i can see these comments) */
 
 body {
-    background-color:white; 
+    background-color:rgb(255, 248, 239);
     font-family: 'Rubik', sans-serif; 
     font-weight: lighter;
 }
@@ -79,30 +79,33 @@ h6 {
    
 }
 
+/* Wordmark */
+
 
 /* Header */
 
 .header-block {
     display: grid;
     grid-template-columns: 320px auto;
-    align-items: center;  
+    align-items: center; }
+
+header img {
+    max-width: 80px;
 }
 
-
 /* Navigation*/
-
+ 
 /* Footer */
 
 /* Modules */
 
 /*Redscale images*/
 
-.column{
-    float: left;
-    width: 32%;
-    padding: 5px;
-    margin-left: 3px;
-    margin-right: 3px; 
-}
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    }
+
 
 
