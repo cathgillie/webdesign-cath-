@@ -94,6 +94,13 @@ h6 {
 
 /* Navigation*/
 
+.nav-prompt {
+    background-color:rgb(255, 248, 239);
+    border:none;
+    text-align: center;
+    width:100%; 
+}
+
 .main-nav {
 list-style: none;
 font-size: 24px ;
