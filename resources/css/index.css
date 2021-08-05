@@ -1,0 +1,31 @@
+@import url(normalize.css);
+
+
+/* header */
+.header-image{
+    max-width: 80%;
+    margin-left: 25px;
+    margin-top: 10px;
+    padding-top: 3px;
+}
+
+.header-name {
+    max-width: 80%;
+    align-content: center;
+    padding-left: auto;
+    padding-right: auto;
+
+
+}
+
+
+
+
+
+/*Redscale images*/
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    }

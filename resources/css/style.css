@@ -35,8 +35,11 @@ background-color:white;
 
 /*Logo*/
 
-.header-logo {
-    max-width: 100px;
+.header-image {
+    max-width: 80%;
+    margin-left: 25px;
+    margin-top: 10px;
+    padding-top: 3px;
 }
 
 
@@ -83,7 +86,6 @@ h6 {
 
 
 /* Header */
-
 .header-block {
     display: grid;
     grid-template-columns: 320px auto;
