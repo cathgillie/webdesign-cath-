@@ -1,22 +1,58 @@
 @import url(normalize.css);
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Rubik:wght@300;500&display=swap');
-/* GLOBAL DEFAULTS (only i can see these comments) */
 
+
+/* body */
 body {
-    background-color:rgb(255, 248, 239);
+    background-color:rgb(255, 249, 242);
     font-family: 'Rubik', sans-serif; 
     font-weight: lighter;
 }
 
+/* images */
+@media screen and (min-width: 800px) {
 
-img {
+
+.row-photography {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
     max-width: 100%;
+    padding-top: 6%;
+}
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    max-width: 100%;
+    max-height: 100%;
+}
+.mission-image {
+    padding-left: 80px;
+    padding-bottom: 20%;
+    padding-top: 5%;
+    margin-left: 17%;  
+} 
+.mission-image-beside{
+    position:absolute;
+    margin-left: 4%;
+    padding-top:6%;
+}
+.front-image{
+    max-width: 90%;
+    margin-left: 7%;
+}
+}
+ /* video*/ 
+
+video {
+    max-width: 100%; 
 }
 
-
-video{
-    max-width: 100%;
+.video-content {
+    padding-top: 6%;
+    align-items: center;
 }
 
 /* Layouts */
@@ -28,82 +64,124 @@ video{
     margin-right: auto;
 }
 
-.layout-superwide {
-max-width: 100%;
-background-color:white;
-}
-
-/*Logo*/
-
-.header-image {
-    max-width: 80%;
-    margin-left: 25px;
-    margin-top: 10px;
-    padding-top: 3px;
-}
-
-
 
 /* Heading and typogaphy*/
 
 h1 {
     color:black;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 48px;
+    font-size: 50px;
     margin-left: 3%;
-
+    text-align: center;
 }
 h2 {
-    color:tan;
-    background-color:cornsilk;
+    color:black; 
     font-family: 'Rubik', sans-serif;
-    font-size: 36px;
-
-
+    font-weight:lighter;
+    font-size: 15px;
+    letter-spacing: 1px; 
+    word-spacing: 1px;
+    text-align: center;
+    line-height: 20px;
 }
-h3,
-h4,
-h5 {
-    color:tan;
+h3 {
+    color:#747272; 
     font-family: 'Rubik', sans-serif;
+    font-weight:lighter;
+    font-size: 15px;
+    letter-spacing: 1px; 
+    word-spacing: 1px;
+    text-align: center;
+    line-height: 30px;
+}
+h4{
+    color:black; 
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+    text-align: center;
+}
+p {
+    color: #747272; 
+    text-align: center;
 }
 
-h6 {
-    color: black;
+.contact-text{
     font-family: 'Rubik', sans-serif;
-    font-size: 18px;
     font-weight: lighter;
-    display: grid;
-    grid-template-rows: auto;
-
-     /* Trying to position them in the top right hand corner*/
-
-
-   
+    letter-spacing: 1px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
-/* Wordmark */
+.photography-text {
+    margin-top: -4%;
+}
 
+.videography-text {
+    margin-top: -4%;
+}
 
-/* Header */
+/* Header images */
+
 .header-block {
     display: grid;
     grid-template-columns: 320px auto;
     align-items: center; }
 
+.header-image {
+    max-width: 60%;
+    margin-left: 25px;
+}
+@media screen and (min-width: 800px) {
+.contact-header {
+    margin-left: 66%;
+}
+}
 
+.photography-header {
+    margin-left: 32%;  
+}
 
+.videography-header {
+    margin-left: 31%;  
+}
 
-/* Navigation*/
+.blog-header {
+    margin-left: 43%;
+    padding-top: 5%;  
+}
+
+.blog-header2 {
+    margin-left: 40%; 
+    padding-top: 5%; 
+    padding-bottom: 2%;
+}
+
+.blog-header3 {
+    margin-left: 40%; 
+    padding-top: 5%; 
+    padding-bottom: 2%;
+}
+
+.hello-header{
+    max-width: 50%;
+    margin-left: 26%;
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+
+/* Main Navigation*/
 
 .nav-prompt {
-    background-color:rgb(255, 248, 239);
+    background-color:rgb(255, 249, 242);
     border:none;
     text-align:center;
     width:100%; 
-    color:black;
+    color:#747272;
     border-top-width:1px;
-    border-top-color: black;
+    border-top-color:black;
     border-top-style:hidden;
 
     border-bottom-width: 1px;
@@ -116,12 +194,15 @@ h6 {
 
 .navigation{
     background-color:transparent;
+    position:absolute;
+    right:10px;
+    top:5px;
+    grid-template-columns: auto;
 }
 
 .main-nav {
     list-style: none;
-    padding:0px;
-
+    padding:0px; 
 }
 
 .main-nav li{
@@ -132,13 +213,15 @@ h6 {
     justify-content: space-between;
     text-align: center;
     text-transform:initial;
+    letter-spacing: -.45px; 
+    
 }
 
 .main-nav a {
-    color:black;
+    color:#747272;
     font-weight: lighter;
     text-decoration: none;
-    display: flex;    
+    display: flex;  
 }
 
 /* this is for the nabigation mobile view only */
@@ -154,8 +237,6 @@ h6 {
     }
 }
     
-
-
 /* this is to hide the nave button on desktop view */
 @media screen and (min-width: 800px) 
 {
@@ -164,6 +245,10 @@ h6 {
         display: none;
     }
    
+    .nav-inner{
+        width:800px;
+    }
+
     .main-nav {
         display: flex;
         justify-content: space-between;
@@ -173,15 +258,44 @@ h6 {
 
 /* Footer */
 
-/* Modules */
+footer{
+    background-color:rgb(245, 232, 217);
+}
 
-/*Redscale images*/
+footer p{
+    text-align: center;
+}
 
-.row {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
-    }
+h1{
+    text-align: center;
+}
 
 
+/* contact fill out sheet */
 
+.container-sheet {
+    text-align:center;
+
+}
+.form-default-rows {
+    padding-top: 2%;
+}
+
+/* contact page */
+@media screen and (min-width: 800px) {
+.contact-info {
+    text-align: center;
+    padding-left: 63%;
+    padding-right: 5%;
+    margin-right: 7%;
+
+}
+}
+
+/* containers */
+@media screen and (max-width: 800px) {
+.container {
+    margin: 0 auto;
+    position: relative;
+}
+}
