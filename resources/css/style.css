@@ -234,6 +234,7 @@ p {
     }
     .nav-inner.open{
         max-height:100vh;
+        background-color:rgb(255, 249, 242);
     }
 }
     
@@ -246,7 +247,7 @@ p {
     }
    
     .nav-inner{
-        width:800px;
+        width: 500px;
     }
 
     .main-nav {
