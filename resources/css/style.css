@@ -13,20 +13,27 @@ body {
 /* images */
 @media screen and (min-width: 800px) {
 
-
-.row-photography {
+.contact-image{
+    padding-left: 50px;
+    padding-bottom: 20%;
+    padding-top: 10%;
+    margin-left: 6%; 
+}
+.row-contact{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 10px;
     max-width: 100%;
-    padding-top: 6%;
+    max-height: 100%;
+    padding-top: 1%;
 }
 .row {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 10px;
     max-width: 100%;
     max-height: 100%;
+    padding-top: 1%;
 }
 .mission-image {
     padding-left: 80px;
@@ -115,6 +122,12 @@ p {
     margin-right: 25%;
 }
 
+.contact-info {
+    text-align:center;
+    padding-top: 3%;
+
+}
+
 .photography-text {
     margin-top: -4%;
 }
@@ -134,10 +147,10 @@ p {
     max-width: 60%;
     margin-left: 25px;
 }
-@media screen and (min-width: 800px) {
+
 .contact-header {
-    margin-left: 66%;
-}
+  margin-left: 26%; 
+  padding-top: 3%;
 }
 
 .photography-header {
@@ -282,16 +295,6 @@ h1{
     padding-top: 2%;
 }
 
-/* contact page */
-@media screen and (min-width: 800px) {
-.contact-info {
-    text-align: center;
-    padding-left: 63%;
-    padding-right: 5%;
-    margin-right: 7%;
-
-}
-}
 
 /* containers */
 @media screen and (max-width: 800px) {
