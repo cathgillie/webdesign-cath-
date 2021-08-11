@@ -60,6 +60,7 @@ video {
 .video-content {
     padding-top: 6%;
     align-items: center;
+    padding-left: 50px;
 }
 
 /* Layouts */
