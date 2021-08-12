@@ -10,6 +10,9 @@ body {
     font-weight: lighter;
 }
 
+/* carousel */
+
+
 /* images */
 @media screen and (min-width: 800px) {
 
@@ -38,7 +41,7 @@ body {
 .mission-image {
     padding-left: 80px;
     padding-bottom: 20%;
-    padding-top: 5%;
+    padding-top: 10%;
     margin-left: 17%;  
 } 
 .mission-image-beside{
@@ -81,6 +84,7 @@ h1 {
     font-size: 50px;
     margin-left: 3%;
     text-align: center;
+    padding-right: 3%;
 }
 h2 {
     color:black; 
