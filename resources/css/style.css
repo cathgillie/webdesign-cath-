@@ -242,7 +242,7 @@ p {
 .main-nav a {
     color:#747272;
     font-weight: lighter;
-    text-decoration: none;
+    text-decoration:none;
     display: flex;  
 }
 
